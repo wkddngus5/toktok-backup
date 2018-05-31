@@ -1,3 +1,4 @@
+
 .main-carousel {
     width: 100%;
     height: 40%;
@@ -53,4 +54,10 @@
 .carousel-index.is-checked {
     background-color: #FFF;
     border-color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-page.page-1 {
+        background-image: url("/src/img/suggestion_mobile.png");
+    }
 }
